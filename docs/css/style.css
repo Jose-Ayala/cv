@@ -1,0 +1,163 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body
+{
+	width: 100vw;
+	overflow-x: hidden;
+}
+
+#main
+{
+	color: white;
+	background-image: url("../img/main.jpg");
+	background-repeat:no-repeat;
+    background-size:cover;
+	height: 300px;
+}
+
+#title
+{
+	margin-top: 100px;
+	font-size: 3em;
+}
+
+.label
+{
+	background-image: url("../img/background.png");
+	background-repeat: no-repeat;
+	height: 200px;
+	color: white;
+}
+
+.btn
+{
+	background-color: white;
+	color: #459cd1; 
+	border: 1px solid #459cd1;
+}
+
+.card-no-border
+{
+	border: none;
+}
+
+.card 
+{
+    min-height: 300px;
+}
+
+.card-small
+{
+    min-height: 150px;
+}
+
+.carousel-control-prev-icon
+{
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23459cd1' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23459cd1' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.carousel-indicators li
+{
+	background-color: #d3d3d3;
+}
+.carousel-indicators .active
+{
+    background-color: #459cd1;
+}
+
+.bluehr
+{
+	background-color: #459cd1;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+
+/** Footer */
+footer
+{
+	text-align: center;
+	font-size: .75em;
+	margin-top: 25px;
+	margin-left:auto; 
+    margin-right:auto;
+	padding: 30px;
+	background-color: #000000;
+	color: #ffffff;
+    width: 100vw;
+    margin-left: calc(-50vw + 50% - 8px);
+    position: relative;
+}
+/** End Footer */
+
+
+/** Extra utilities **/
+.flex-equal > * {
+  -ms-flex: 1;
+  flex: 1;
+}
+
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    -ms-flex: 1;
+    flex: 1;
+  }
+}
+
+.overflow-hidden { overflow: hidden; }
+/** End Extra utilities **/
+
+@media only screen and (min-width: 600px) {
+	#main
+	{
+		color: white;
+		background-image: url("../img/main.jpg");
+		background-repeat:no-repeat;
+		background-size:cover;
+		height: 600px;
+	}
+	#title
+	{
+		margin-top: 200px;
+		font-size: 4em;
+	}
+}
+
+@media only screen and (min-width: 1100px) {
+	#main
+	{
+		color: white;
+		background-image: url("../img/main.jpg");
+		background-repeat:no-repeat;
+		background-size:cover;
+		height: 800px;
+	}
+	#title
+	{
+		margin-top: 250px;
+		font-size: 5em;
+	}
+}
+
+
+@media screen and (max-width: 800px) 
+{
+	.label
+	{
+		background-image: url("../img/background.png");
+		background-repeat: no-repeat;
+		color: white;
+	}
+	.card 
+	{
+		max-width: 70vw;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
